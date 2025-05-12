@@ -21,12 +21,11 @@ Run below commands to install Grafana:
  sudo systemctl start grafana-server
  sudo systemctl enable grafana-server
 ```
-Add inbound rule for port 3000.
-Then you will be able to open the Grafana web portal from http://publicip:3000
-initial admin account: admin
-pw:admin
-
-Donload and Import dashboard: https://grafana.com/api/dashboards/12239/revisions/2/download
+- Add inbound rule for port 3000.
+- Then you will be able to open the Grafana web portal from http://publicip:3000
+- Initial admin account: admin
+- pw:admin
+- Donload and Import dashboard: https://grafana.com/api/dashboards/12239/revisions/2/download
 
 ### Install Prometheus:
 Run below commands to install Prometheus
