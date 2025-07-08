@@ -1,4 +1,4 @@
-# Different ethods for configuring GPU monitoring system
+# Different methods for configuring GPU monitoring system
 The document walks through different metheods to configure GPU monitoring system. 
 
 ### Azure monitor + Telegraf + Log analytics workspace
@@ -14,6 +14,6 @@ For details, please refer:https://github.com/AlizeeChen11/different-methods-for-
 
 
 ### References
-- https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/collect-custom-metrics-linux-telegraf?tabs=ubuntu
-- https://github.com/influxdata/telegraf/blob/4b2e2c5263bb8bd030d2ae101438810c1af61945/plugins/outputs/azure_monitor/README.md
-- https://github.com/influxdata/telegraf/blob/master/plugins/inputs/nvidia_smi/README.md
+- [Linux telegraf collect custom metrics](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/collect-custom-metrics-linux-telegraf?tabs=ubuntu)
+- [Use telegraf with Azure_Monitor](https://github.com/influxdata/telegraf/blob/4b2e2c5263bb8bd030d2ae101438810c1af61945/plugins/outputs/azure_monitor/README.md)
+- [Collect nvidia_smi Counters using Telegraf ](https://github.com/influxdata/telegraf/blob/master/plugins/inputs/nvidia_smi/README.md)
